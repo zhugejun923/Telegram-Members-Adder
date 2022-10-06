@@ -2,30 +2,29 @@
 
 jika ingin tanya-tanya silahkan ke https://wa.me/message/ZWJO22AX4VGMK1
 
-first you need to store accounts for scraping and adding purposes in manager.py
-So launch in terminal
+Pertama kali kita perlu setting dengan menu pada manager.py
 
 > python manager.py
 
---To add new accounts, choose 1 | untuk tambahkan akun, pilih 1
-Then enter number of accounts you wanna add | kemudian masukkan nomor akun yang ingin di tambahkan
-Then enter your phone numbers | masukkan nomor telegram anda
-After that, you have to login from the newly added accounts | silahkan login 
-Enter login code and 2FA password[if u have set] and proceed | lalu masukkan kode verifikasi dari telegram anda ke script
+- untuk tambahkan akun, pilih 1
+- kemudian masukkan nomor akun yang ingin di tambahkan
+- masukkan nomor telegram anda
+- silahkan login 
+- lalu masukkan kode verifikasi dari telegram anda ke script
 
---To filter out all the banned accounts, choose option2 | untuk filter akun apakah status banned, pilih 2
+-- untuk filter akun apakah status banned, pilih 2
 
---To delete specific accounts, choose option3 | untuk hapus akun tertentu, pilih 3
-Choose any account to delete and proceed | silahkan pilih akun yang ingin dihapus
+-- untuk hapus akun tertentu, pilih 3
+silahkan pilih akun yang ingin dihapus
 
-Now we need to add members to a group | sekarang kita hanya perlu melakukan penambahan member ke channel tercinta kita
+sekarang kita hanya perlu melakukan penambahan member ke channel tercinta kita
 
-So launch in terminal | jalankan terminal
+jalankan terminal
 
 > python add.py
 
-Enter group link you wanna scrape users from | masukkan link grup publik yang akan di scrape
-It can be a private link or a public link | pastikan grup publik ya bukan channel karena untuk kelancaran program
+masukkan link grup publik yang akan di scrape
+pastikan grup publik ya bukan channel karena untuk kelancaran program
 
 Trik : silahkan cari di kolom pencarian telegram grup publik yang sesuai anda inginkan misal grup diskusi Shopee, dll
 
