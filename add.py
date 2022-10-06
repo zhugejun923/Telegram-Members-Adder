@@ -50,8 +50,8 @@ def banner():
     ]
     for char in b:
         print(f'{random.choice(colors)}{char}{rs}')
-    #print('=============SAIFALISEW1508==============')
-    print(f'{lg}Version: {w}2.0:latest{lg} | Author: {w}saifalisew1508{rs}')
+    #print('=============Zenos Script==============')
+    print(f'{lg}Version: {w}2.0:latest{lg}')
 
 
 # function to clear screen
@@ -71,7 +71,7 @@ while True:
 
 # create sessions(if any) and check for any banned accounts
 # TODO: Remove code input(just to check if an account is banned)
-print('\n' + info + lg + ' Checking for banned accounts...' + rs)
+print('\n' + info + lg + ' cek apakah akun ter banned...' + rs)
 for a in accounts:
     phn = a[0]
     print(f'{plus}{grey} Checking {lg}{phn}')
@@ -116,7 +116,7 @@ try:
     with open('status.dat', 'rb') as f:
         status = pickle.load(f)
         f.close()
-        lol = input(f'{INPUT}{cy} Resume scraping members from {w}{status[0]}{lg}? [y/n]: {r}')
+        lol = input(f'{INPUT}{cy} Lanjut scrape members dari {w}{status[0]}{lg}? [y/n]: {r}')
         if 'y' in lol:
             scraped_grp = status[0] ; index = int(status[1])
         else:
