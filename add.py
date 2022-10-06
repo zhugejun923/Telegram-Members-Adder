@@ -1,9 +1,7 @@
 '''
-================SAIFALISEW1508=====================
-Telegram members adding script
-Coded by a kid- github.com/saifalisew1508
-Apologies if anything in the code is dumb :)
-Copy with credits
+================ZENOS SCRIPT=====================
+Telegram members auto join script
+Jika butuh tanya2 silahkan ke https://wa.me/message/ZWJO22AX4VGMK1
 ************************************************
 '''
 
